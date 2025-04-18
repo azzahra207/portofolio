@@ -8,6 +8,17 @@
     <link rel="icon" type="image/png" href="">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<style>
+    import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+    @import "tailwindcss";
+    
+</style>
 </head>
 <body>
     <h1>Hello World</h1>
